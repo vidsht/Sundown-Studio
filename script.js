@@ -36,3 +36,9 @@ var swiper = new Swiper(".mySwiper", {
 
 page4Animation()
 swiperAnimation()
+
+var menu = document.querySelector("nav h3")
+var full = document.querySelector("#full-scr")
+menu.addEventListener("click", function() {
+    full.style.top = 0
+})

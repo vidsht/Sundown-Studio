@@ -86,6 +86,10 @@ html, body {
     color: white;
 }
 
+#nav h3{
+    display: none;
+}
+
 #center{
     height: 65vh;
     width: 100%;
@@ -635,69 +639,43 @@ span{
     }
 }
 
+#full-scr{
+    height: 100vh;
+    width: 100%;
+    background-color: #00000070;
+    position: fixed;
+    z-index: 99;
+    top: -100%;
+}
+
 @media (max-width:600px) {
     #page1{
         height: 100vh;
         width: 100%;
-        background-color: #EFEAE3;
-        position: relative;
-        padding: 0 2vw;
+        padding: 0 5vw;
     } 
     
     #nav{
-        padding: 2vw 0vw;
-        width: 100%;
-        display: flex;
-        align-items: center;
+        padding: 8vw 0vw;
         position: relative;
-        justify-content: space-between;
-        z-index: 1;
-        position: relative;
+        z-index: 100;
     }
     
     #nav-part2{
-        display: flex;
-        align-items: center;
-        gap: 1vw;
+        display: none;
     }
     
-    #nav-part2 h4{
-        padding: 10px 20px;
-        border: 1px solid  rgba(0, 0, 0, 0.55);
+    nav img{
+        height: 9vh; 
+    }
+
+    nav h3{
+        display: block;
+        padding: 3vw 5vw;
+        border: 1px solid #ababab;
         border-radius: 50px;
-        font-weight: 500;
-        color: rgba(0, 0, 0, 0.722);
-        transition: all ease 0.4s;
-        position: relative;
-        font-size: 18px;
-        overflow: hidden;
-    }
-    
-    #nav-part2 h4::after{
-        content: "";
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: black;
-        left: 0;
-        bottom: -100%;
-        border-radius: 50%;
-        transition: all ease 0.4s;
-    }
-    
-    #nav-part2 h4:hover::after{
-        bottom: 0;
-        border-radius: 0;
-    }
-    
-    #nav-part2 h4 a{
-        color: rgba(0, 0, 0, 0.722);
-        text-decoration: none;
-        position: relative;
-        z-index: 9;
-    }
-    
-    #nav-part2 h4:hover a{
-        color: white;
+        font-size: 4vw;
+        font-weight: 200;
+        padding-left: 10vw;
     }
 }
