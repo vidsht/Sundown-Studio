@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Sundown-Studio** is a visually captivating front-end website designed for a creative studio. The site features smooth animations and interactive elements to create an immersive user experience. The project highlights the power of **HTML**, **CSS**, and **JavaScript** in building animated, responsive websites.
+**Sundown-Studio** is a visually captivating front-end website designed for a creative studio. The site features smooth animations and interactive elements to create an immersive user experience. The project highlights the power of HTML, CSS, and JavaScript in building animated, responsive websites.
 
 This project serves as a showcase of modern web design techniques, combining aesthetic appeal with functionality.
 
@@ -46,8 +46,4 @@ This project serves as a showcase of modern web design techniques, combining aes
 - **Dark Mode**: Add a toggle to switch between light and dark themes.
 - **Content Management**: Integrate with a CMS (like WordPress) for dynamic content updates.
 - **Enhanced Animations**: Introduce more advanced animations using libraries like GSAP or Three.js.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your enhancements.
 
