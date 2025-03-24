@@ -9,7 +9,7 @@ This project serves as a showcase of modern web design techniques, combining aes
 ## Features
 
 - **Stunning Animations**: Engaging transitions and animations that bring the website to life.
-- **Responsive Design**: The website is fully responsive, adapting to different screen sizes (mobile, tablet, desktop).
+- **Responsive Design**: The website is fully responsive, adapting to different screen sizes (mobile, desktop).
 - **Smooth Scrolling**: Implemented smooth scrolling for a better navigation experience.
 - **Interactive Elements**: Buttons, images, and text animations create a dynamic interaction for users.
 - **Custom Layout**: Unique layout designs, perfect for showcasing studio work, portfolios, or services.
@@ -37,7 +37,7 @@ This project serves as a showcase of modern web design techniques, combining aes
 
 ## How to Use
 
-- Navigate through the website's different sections using smooth scrolling or the navigation bar.
+- Navigate through the website's sections using smooth scrolling or the navigation bar.
 - Interact with buttons and images to see the custom animations and transitions.
 - Resize the browser window to see the responsive design in action.
 
